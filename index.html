@@ -806,12 +806,103 @@
     <!-- Another section -->
 
     <section class="container my-5">
-        <a href="https://www.faceboo.com">
-            <div style="background-image: url(images/headphoneSlide.png); height: 300px; background-repeat:no-repeat ; background-position: center; background-size: cover;">
+      <a href="https://www.faceboo.com">
+        <div
+          style="
+            background-image: url(images/headphoneSlide.png);
+            height: 300px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+      </a>
+    </section>
+    <!-- Again Another section -->
 
+    <section class="container">
+      <p class="h3 text-center text-success">Order Your Products</p>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="mt-5">
+
+            <div class="d-flex justify-content-between">
+            <div class="col-5">
+              <label for="forName" class="form-label">Name</label>
+              <input
+                type="text"
+                id="forName"
+                class="form-control"
+                placeholder="Write Your Full Name"
+              />
             </div>
-        </a>
+            <div class="col-5">
+              <label for="forEmail" class="form-label">Email Address</label>
+              <input
+                type="email"
+                id="forEmail"
+                class="form-control"
+                placeholder="Write Your E-mail"
+              />
+            </div>
+          </div>
 
+          <div class="mt-3">
+            <label for="forshop" class="form-label">Shopping Location</label>
+            <input
+              type="text"
+              id="forshop"
+              class="form-control"
+              placeholder="Street Address"
+            />
+          </div>
+          <div class="mt-3 d-flex justify-content-between">
+            <div class="col-5">
+              <input type="text" class="form-control" placeholder="City" />
+            </div>
+            <div class="col-5">
+              <input type="text" class="form-control" placeholder="Region" />
+            </div>
+          </div>
+          <div class="mt-3 d-flex justify-content-between">
+            <div class="col-5">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Postal / Zip Code"
+              />
+            </div>
+            <div class="col-5">
+              <select class="form-select">
+                <option selected>Your Country</option>
+                <option value="1">Bangladesh</option>
+                <option value="2">India</option>
+                <option value="3">Japan</option>
+                <option value="3">Thailand</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mt-3">
+            <label class="form-label" for="fortext">
+              Write your any message</label
+            >
+            <textarea
+              class="form-control"
+              name=""
+              id="fortext"
+              cols=""
+              rows="4"
+            ></textarea>
+          </div>
+          <button class="btn btn-danger w-100 mt-5">Press Confirm</button>
+        </div>
+
+        <div class="col-md-6">
+          <img class="img-fluid" src="images/contact.jpg" alt="" />
+        </div>
+          </form>
+      </div>
     </section>
 
     <script
